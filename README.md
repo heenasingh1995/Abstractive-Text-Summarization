@@ -139,3 +139,30 @@ figure 5.3, 5.4 and 5.5 respectively.
 <img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/03185288-f854-4d97-b810-389e087290ef.jpg" width="600" />
 
 
+# Results & Analysis
+<p>
+We have evaluated our generated summary on BLEU score and ROUGE score.
+ </p>
+ 
+<b> BLEU Score Results :</b>
+ 
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/8345dc3c-057a-4e01-ac68-ccf4ec0e746f.jpg" width="600" />
+
+
+ 
+<b> ROUGE Score Results :</b>
+ 
+ 
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/25c1c4de-7083-4b39-8844-cd2e4c13d92c.jpg" width="600" />
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/63b70b30-a266-4f35-8590-50964933c4a4.jpg" width="600" />
+
+
+## Comparative Analysis
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/25c1c4de-7083-4b39-8844-cd2e4c13d92c.jpg" width="600" />
+
+
+## Output Summary Examples
+
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/b1a59e3d-67c1-40ab-bd72-1630a317f2bb.jpg" width="600" />
+
+
