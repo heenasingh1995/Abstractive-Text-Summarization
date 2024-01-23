@@ -158,7 +158,8 @@ We have evaluated our generated summary on BLEU score and ROUGE score.
 
 
 ## Comparative Analysis
-<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/25c1c4de-7083-4b39-8844-cd2e4c13d92c.jpg" width="600" />
+
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/b9da3e4a-8a3a-4725-a74b-9ee5db2b17b6.jpg" width="600" />
 
 
 ## Output Summary Examples
