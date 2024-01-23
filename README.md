@@ -83,11 +83,12 @@ There is a problem of the repetition of words in our previous seq2seq models. So
 
 ### Data Pre-Processing
 <p>
-Text articles have been pre-processed
-where all the text converted into the lower case, punctuation marks and special symbols like
-#, $, % have been removed. Source articles have been truncated after 110 words. The target
-summary has been truncated after 26 words. A text article example before pre-processing
-and after pre-processing is shown in Figures below:
+The following steps have been done to pre-process the text data:<br>
+1. Converted the text into lower case. <br>
+2. Contractions have been expanded. Ex. can’t to cannot.<br>
+3. Removed special characters and symbols like ’,?/+=)( and numeric values also.<br>
+4. Truncated the source article after 100 words and target summary after 25 words.<br>
+An example of a text article before pre-processing and after pre-processing is shown in table 5.1.<br>
 </p>
 
 <img src="https://user-images.githubusercontent.com/26309477/120082771-6683fd00-c0e2-11eb-8101-afb06c261d4f.jpg" width="500" />
