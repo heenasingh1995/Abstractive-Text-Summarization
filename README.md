@@ -171,7 +171,7 @@ We have evaluated our generated summary on BLEU score and ROUGE score.
 
 <p>
 
-Kumari H., Sarkar S., Rajput V., Roy A. (2020) <b>Comparative Analysis of Neural Models for Abstractive Text Summarization</b>. <br> In: Bhattacharjee A., Borgohain S., Soni B., Verma G., Gao XZ. (eds) Machine Learning, Image Processing, Network Security and Data Sciences. MIND 2020. Communications in Computer and Information Science, vol 1241. Springer, Singapore. <br> https://doi.org/10.1007/978-981-15-6318-8_30
+Kumari H., Sarkar S., Rajput V., Roy A. (2020) <b>Comparative Analysis of Neural Models for Abstractive Text Summarization</b>. <br> In: Machine Learning, Image Processing, Network Security and Data Sciences. MIND 2020. Communications in Computer and Information Science, vol 1241. Springer, Singapore. <br> https://doi.org/10.1007/978-981-15-6318-8_30
 
 </p>
 
