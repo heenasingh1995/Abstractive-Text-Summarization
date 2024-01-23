@@ -34,7 +34,7 @@ summary.
 <p>MSMO dataset has been used.
 The size of the data is around 200 GB. <br>The structure of the text article file is shown in Figure below:</p>
 
-<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/1f2a41cb-1faa-4d8d-abd7-f478aa7c2346.jpg" width="300" />
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/1f2a41cb-1faa-4d8d-abd7-f478aa7c2346.jpg" width="500" />
 
 
 <p> Dataset Statistics are given below :<br></p>
@@ -58,7 +58,7 @@ To generate abstractive text summary, there models have been used.
 Encoder-Decoder with attention model was introduced by Bahdanau for machine translation and is depicted in Figure below. Later it has been used by many researchers as a baseline system for their research work. In this encoder-decoder model, encoder compress input sequence W = (w1 , w2 , ......, wTx ) to a fixed-length vector. The decoder produces output at each timestamp. The encoder will produce hidden state  by taking word and previous hidden state  in every time step. The output of the last timestamp of the encoder is given to the decoder as initial input. At each timestamp t, the decoder will predict a target word by a soft search for the relevant part of the source sentence.
 
 
-<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/16eb4354-0398-44ea-a0fe-f44989a7def0.jpg" width="400" />
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/16eb4354-0398-44ea-a0fe-f44989a7def0.jpg" width="600" />
 <br>
 
 <b>2. Pointer Generator Network :</b> <br>
@@ -70,7 +70,7 @@ produces the correct factual details, while novel words will be produced through
 This network can be called a combination of extractive and abstractive text summarization. The
 context vector is the same as in the previous model and attention distribution also.
 
-<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/fbf4a28a-d504-49c2-bcce-80e9f05eba97.jpg" width="400" />
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/fbf4a28a-d504-49c2-bcce-80e9f05eba97.jpg" width="600" />
 <br>
 
 <b>3. Pointer Generator Network with Coverage Mechanism :</b> <br>
