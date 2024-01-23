@@ -166,4 +166,111 @@ We have evaluated our generated summary on BLEU score and ROUGE score.
 
 <img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/b1a59e3d-67c1-40ab-bd72-1630a317f2bb.jpg" width="600" />
 
+# References
+<p>
 
+[1] Bahdanau, D., Cho, K., Bengio, Y.: Neural machine translation by jointly learning to align
+and translate. In: Bengio, Y., LeCun, Y. (eds.) 3rd International Conference on Learning Rep-
+resentations, ICLR 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings
+(2015), http://arxiv.org/abs/1409.0473 <br>
+[2] Cho, K., van Merriënboer, B., Bahdanau, D., Bengio, Y.: On the properties of neural ma-
+chine translation: Encoder–decoder approaches. In: Proceedings of SSST-8, Eighth Workshop
+on Syntax, Semantics and Structure in Statistical Translation. pp. 103–111. Association for
+Computational Linguistics, Doha, Qatar (Oct 2014). https://doi.org/10.3115/v1/W14-4012,
+https://www.aclweb.org/anthology/W14-4012 <br>
+[3] Gehring, J., Auli, M., Grangier, D., Yarats, D., Dauphin, Y.N.: Convolutional sequence to
+sequence learning. CoRR abs/1705.03122 (2017), http://arxiv.org/abs/1705.03122 <br>
+[4] Gulcehre, C., Ahn, S., Nallapati, R., Zhou, B., Bengio, Y.:
+words. In:
+Pointing the unknown
+Proceedings of the 54th Annual Meeting of the Association for Compu-
+tational Linguistics (Volume 1:
+Long Papers). pp. 140–149. Association for Computa-
+tional Linguistics, Berlin, Germany (Aug 2016). https://doi.org/10.18653/v1/P16-1014,
+https://www.aclweb.org/anthology/P16-1014 <br>
+[5] Guo,H.,Pasunuru,R.,
+tionwithentailmentand
+Bansal,
+M.:
+question
+Soft layer-specific multi-task summariza-
+generation.
+CoRR
+abs/1805.11004
+(2018),
+http://arxiv.org/abs/1805.11004 <br>
+[6] Jaya Kumar, Y., Goh, O.S., Basiron, H., Ngo, H.C., Suppiah, P.: A review on automatic text
+summarization approaches 12, 178–190 (01 2016). https://doi.org/10.3844/jcssp.2016.178.190 <br>
+[7] Klein, G., Kim, Y., Deng, Y., Nguyen, V., Senellart, J., Rush, A.: OpenNMT: Neu-
+ral machine translation toolkit. In: Proceedings of the 13th Conference of the Associ-
+ation for Machine Translation in the Americas (Volume 1: Research Papers). pp. 177–
+184. Association for Machine Translation in the Americas, Boston, MA (Mar 2018),
+https://www.aclweb.org/anthology/W18-1817 <br>
+[8] Lin, C.Y.: ROUGE: A package for automatic evaluation of summaries. In: Text Summariza-
+tion Branches Out. pp. 74–81. Association for Computational Linguistics, Barcelona, Spain
+(Jul 2004), https://www.aclweb.org/anthology/W04-1013 <br>
+
+[9] Miao, Y., Blunsom, P.:
+Language as a latent variable:
+els for sentence compression. In:
+Discrete generative mod-
+Proceedings of the 2016 Conference on Empiri-
+cal Methods in Natural Language Processing. pp. 319–328. Association for Compu-
+tational Linguistics, Austin, Texas (Nov 2016). https://doi.org/10.18653/v1/D16-1031,
+https://www.aclweb.org/anthology/D16-1031 <br>
+[10] Papineni, K., Roukos, S., Ward, T., Zhu, W.J.: Bleu: a method for automatic evalua-
+tion of machine translation. In: Proceedings of the 40th Annual Meeting of the Associ-
+ation for Computational Linguistics. pp. 311–318. Association for Computational Linguis-
+tics, Philadelphia, Pennsylvania, USA (Jul 2002). https://doi.org/10.3115/1073083.1073135,
+https://www.aclweb.org/anthology/P02-1040 <br>
+[11] Rush,
+A.M.,
+Chopra,
+S.,
+Weston,
+tive sentence summarization. In:
+J.:
+A neural attention model for abstrac-
+Proceedings of the 2015 Conference on Empiri-
+cal Methods in Natural Language Processing. pp. 379–389. Association for Computa-
+tional Linguistics, Lisbon, Portugal (Sep 2015). https://doi.org/10.18653/v1/D15-1044,
+https://www.aclweb.org/anthology/D15-1044 <br>
+[12] See, A., Liu, P.J., Manning, C.D.: Get to the point: Summarization with pointer-generator
+networks. In: Proceedings of the 55th Annual Meeting of the Association for Compu-
+tational Linguistics (Volume 1: Long Papers). pp. 1073–1083. Association for Computa-
+tional Linguistics, Vancouver, Canada (Jul 2017). https://doi.org/10.18653/v1/P17-1099,
+https://www.aclweb.org/anthology/P17-1099 <br>
+[13] Song,S.,
+inglstm-cnn
+tions
+Huang,
+78(1),
+H.,
+based
+Ruan,
+deep
+857–875
+T.:
+learning.
+(2019).
+Abstractive
+Multimedia
+text
+summarization
+Tools
+and
+us-
+Applica-
+https://doi.org/10.1007/s11042-018-5749-3,
+https://doi.org/10.1007/s11042-018-5749-3 <br>
+[14] Sutskever, I., Vinyals, O., Le, Q.V.: Sequence to sequence learning with neural networks. In:
+Ghahramani, Z., Welling, M., Cortes, C., Lawrence, N.D., Weinberger, K.Q. (eds.) Advances
+in Neural Information Processing Systems 27, pp. 3104–3112. Curran Associates, Inc. (2014),
+http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf <br>
+[15] Zhu, J., Li, H., Liu, T., Zhou, Y., Zhang, J., Zong, C.:
+MSMO: Multimodal sum-
+marization with multimodal output. In: Proceedings of the 2018 Conference on Empir-
+ical Methods in Natural Language Processing. pp. 4154–4164. Association for Computa-
+tional Linguistics, Brussels, Belgium (Oct-Nov 2018). https://doi.org/10.18653/v1/D18-1448,
+https://www.aclweb.org/anthology/D18-1448 <br>
+</p>
