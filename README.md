@@ -28,3 +28,25 @@ Abstractive Summary : Heena visited NLP LAB to ready the system.<br>
 In the above example, sentences are compressed and paraphrased to generate the abstractive
 summary.
 </p>
+
+# Dataset Details & Analysis
+
+<p>MSMO dataset has been used.
+The size of the data is around 200 GB. <br>The structure of the text article file is shown in Figure below:</p>
+
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/1f2a41cb-1faa-4d8d-abd7-f478aa7c2346.jpg" width="300" />
+
+
+<p> Dataset Statistics are given below :<br></p>
+
+|Data                   |  Number of Articles   | 
+| -------------        | -------------         |  
+|Training Data          |   293625              | 
+|Validation Data        |   10339               | 
+|Test Data              |   10245               | 
+
+<br>
+<b> Train, Validation, Test Documents Words count Distribution : </b>
+
+<img src = "https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/ed512044-fa9c-4708-9989-e15ca3419991.png" width = "600" />
+
