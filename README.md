@@ -39,11 +39,11 @@ The size of the data is around 200 GB. <br>The structure of the text article fil
 
 <p> Dataset Statistics are given below :<br></p>
 
-|Data                   |  Number of Articles   | No of Images|
-| -------------        | -------------         |  ----------
-|Training Data          |   293625              | 1876934|
-|Validation Data        |   10339               | 71463|
-|Test Data              |   10245               | 68414|
+|Data                   |  Number of Articles   | 
+| -------------        | -------------         |  
+|Training Data          |   293760              |
+|Validation Data        |   10344               | 
+|Test Data              |   10251               | 
 
 <br>
 <b> Train, Validation, Test Documents Words count Distribution : </b>
@@ -78,3 +78,30 @@ context vector is the same as in the previous model and attention distribution a
 
 There is a problem of the repetition of words in our previous seq2seq models. So, there is a need for something to keep track of what has been summarized so that the repetition of words can be controlled in the generated summary. So coverage mechanism is used to track what is already summarized. It prevents the repetition of words.
 <br>
+
+# Experiment
+
+### Data Pre-Processing
+<p>
+Text articles have been pre-processed
+where all the text converted into the lower case, punctuation marks and special symbols like
+#, $, % have been removed. Source articles have been truncated after 110 words. The target
+summary has been truncated after 26 words. A text article example before pre-processing
+and after pre-processing is shown in Figures below:
+</p>
+
+<img src="https://user-images.githubusercontent.com/26309477/120082771-6683fd00-c0e2-11eb-8101-afb06c261d4f.jpg" width="500" />
+
+<img src="https://user-images.githubusercontent.com/26309477/120082776-6ab01a80-c0e2-11eb-81a2-d186c3366984.jpg" width="500" />
+
+### Creating Vocabulary
+<p>
+There are a total of 234682 unique words in source training articles. Only the top 230000 most
+frequent words are taken in the source vocabulary. Including start and end token, the total source vocab size is 230002.
+
+There are a total of 88631 unique words in the target training summary. Only the top 85000
+most frequent words are taken for the target vocabulary. Including start and end token, the
+total target vocab size is 85004.
+</p>
+ 
+ <img src="https://user-images.githubusercontent.com/26309477/120082861-f45fe800-c0e2-11eb-8f9c-17130b59ec86.png" width="600" />
