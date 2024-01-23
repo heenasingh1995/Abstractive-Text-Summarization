@@ -81,7 +81,7 @@ There is a problem of the repetition of words in our previous seq2seq models. So
 
 # Experiment
 
-### Data Pre-Processing
+## Data Pre-Processing
 <p>
 The following steps have been done to pre-process the text data:<br>
 1. Converted the text into lower case. <br>
@@ -94,7 +94,7 @@ An example of a text article before pre-processing and after pre-processing is s
 <img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/24aff1f5-d7f2-4e03-a566-1d14ce259df1.jpg" width="500" />
 
 
-### Creating Vocabulary
+## Creating Vocabulary
 <p>
 For source vocabulary, only 210000 and for target vocabulary, only 80000 highest frequency words
 were taken. After adding the start and end token, the source vocabulary size was 210002 and the
@@ -105,5 +105,37 @@ shown in figure
 <img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/8edb8ac3-7916-4948-880c-49ab6bc6f7d5.jpg" width="600" />
 
 <img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/bace165c-a6db-4cab-b0e2-22ae666d953f.jpg" width="600" />
+
+## Training
+
+<p>
+In all the three experiments, a bi-directional LSTM is used as an Encoder which outputs a 512-
+dimensional hidden state with a dropout rate 0.3 and an LSTM Decoder which outputs a hidden
+state of 512-dimensions with a dropout rate 0.3. Also for all the experiments, the source vocabulary
+is of 210002 words and the target vocabulary is of 80004 words. Also, each word is embedded in
+128 dimensions. Each model’s validation accuracy was checked for every 1000 epochs. For all the
+experiments, a batch size of 128 and adagrad optimizer with a learning rate of 0.15 are used.
+In the first experiment, Bahadanu’s attention mechanism is used. There are a total of
+82366852 training weights. The model was trained for 50000 epochs. Validation accuracy was
+35.1372 at 50000 epochs. It took around 4 hours to train the model.
+In the second experiment, the Pointer Generator network is used. There are a total of 83417477
+training weights. With pointer generator network 1050625 more training weights were added as
+compared to the first experiment. The model was trained for 40000 epochs. The validation accuracy
+was 37.9021 at 40000 epochs. Model training took around 7.5 hours.
+In the third experiment, we have used a coverage mechanism with the pointer generator network.
+There are a total of 83417989 training weights. In this experiment, 512 more training weights were
+added as compared to the second experiment. The model was trained for 40000 epochs. Validation
+accuracy as 37.8786 at 40000 epochs. Model training took around 9 hours.
+Each model’s training loss, training accuracy and validation accuracy is shown by graph in
+figure 5.3, 5.4 and 5.5 respectively.
+
+</p>
+
+
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/77476a2b-ba84-47c0-a017-a510f2fe7358.jpg" width="600" />
+
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/6f0e15dc-d1b4-4c5a-ad7f-0e56ab93bcb2.jpg" width="600" />
+
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/03185288-f854-4d97-b810-389e087290ef.jpg" width="600" />
 
 
