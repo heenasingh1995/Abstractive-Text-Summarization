@@ -88,21 +88,22 @@ The following steps have been done to pre-process the text data:<br>
 2. Contractions have been expanded. Ex. can’t to cannot.<br>
 3. Removed special characters and symbols like ’,?/+=)( and numeric values also.<br>
 4. Truncated the source article after 100 words and target summary after 25 words.<br>
-An example of a text article before pre-processing and after pre-processing is shown in table 5.1.<br>
+An example of a text article before pre-processing and after pre-processing is shown below.<br>
 </p>
 
-<img src="https://user-images.githubusercontent.com/26309477/120082771-6683fd00-c0e2-11eb-8101-afb06c261d4f.jpg" width="500" />
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/24aff1f5-d7f2-4e03-a566-1d14ce259df1.jpg" width="500" />
 
-<img src="https://user-images.githubusercontent.com/26309477/120082776-6ab01a80-c0e2-11eb-81a2-d186c3366984.jpg" width="500" />
 
 ### Creating Vocabulary
 <p>
-There are a total of 234682 unique words in source training articles. Only the top 230000 most
-frequent words are taken in the source vocabulary. Including start and end token, the total source vocab size is 230002.
-
-There are a total of 88631 unique words in the target training summary. Only the top 85000
-most frequent words are taken for the target vocabulary. Including start and end token, the
-total target vocab size is 85004.
+For source vocabulary, only 210000 and for target vocabulary, only 80000 highest frequency words
+were taken. After adding the start and end token, the source vocabulary size was 210002 and the
+target vocabulary size was 80004. 50 highest frequency words in source and target vocabulary are
+shown in figure
 </p>
- 
- <img src="https://user-images.githubusercontent.com/26309477/120082861-f45fe800-c0e2-11eb-8f9c-17130b59ec86.png" width="600" />
+
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/8edb8ac3-7916-4948-880c-49ab6bc6f7d5.jpg" width="600" />
+
+<img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/bace165c-a6db-4cab-b0e2-22ae666d953f.jpg" width="600" />
+
+
