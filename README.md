@@ -59,17 +59,21 @@ Encoder-Decoder with attention model was introduced by Bahdanau for machine tran
 
 
 <img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/16eb4354-0398-44ea-a0fe-f44989a7def0.jpg" width="400" />
-
+<br>
 
 <b>2. Pointer Generator Network :</b> <br>
+
 The previous model has several disadvantages. It reproduces factual details inaccurately and
 cannot output the of words which are absent in vocabulary and also repeat themselves. This can
 be overcome by PGN [12]. PGN can extract words from the input article through pointing, that
 produces the correct factual details, while novel words will be produced through the generator.
 This network can be called a combination of extractive and abstractive text summarization. The
 context vector is the same as in the previous model and attention distribution also.
+
 <img src="https://github.com/heenasingh1995/Abstractive-Text-Summarization/assets/47137754/fbf4a28a-d504-49c2-bcce-80e9f05eba97.jpg" width="400" />
+<br>
 
 <b>3. Pointer Generator Network with Coverage Mechanism :</b> <br>
 
 There is a problem of the repetition of words in our previous seq2seq models. So, there is a need for something to keep track of what has been summarized so that the repetition of words can be controlled in the generated summary. So coverage mechanism is used to track what is already summarized. It prevents the repetition of words.
+<br>
