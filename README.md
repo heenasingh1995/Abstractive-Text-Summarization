@@ -39,11 +39,11 @@ The size of the data is around 200 GB. <br>The structure of the text article fil
 
 <p> Dataset Statistics are given below :<br></p>
 
-|Data                   |  Number of Articles   | 
-| -------------        | -------------         |  
-|Training Data          |   293625              | 
-|Validation Data        |   10339               | 
-|Test Data              |   10245               | 
+|Data                   |  Number of Articles   | No of Images|
+| -------------        | -------------         |  ----------
+|Training Data          |   293625              | 1876934|
+|Validation Data        |   10339               | 71463|
+|Test Data              |   10245               | 68414|
 
 <br>
 <b> Train, Validation, Test Documents Words count Distribution : </b>
